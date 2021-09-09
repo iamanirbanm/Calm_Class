@@ -1,0 +1,152 @@
+.navbar {
+  background-color: #274C77;
+  overflow: hidden;
+  margin: -8px;
+}
+
+#logo{
+  float: left;
+  width: 40px;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+#logo2{
+  width: 700px;
+  padding-top: 5%;
+  padding-bottom: 0px;
+}
+
+.navbar .content{
+  float: right;
+  color: #E7ECEF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #A3CEF1;
+  color: #8B8C89;
+}
+
+.navbar a:active {
+  background-color: #274C77;
+  color: #E7ECEF;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  color: #d9f1ff;
+  margin: 10px auto;
+  width: 70%;
+  font-family: 'Besley', serif;
+  }
+
+.about {
+  color: #232323;
+  font-size: 19px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20%;
+}
+
+h1{
+  font-size: 100px;
+  background-image: linear-gradient(to right,#0d74e9,#98d1ff, #c7e9ff);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-bottom: 15px;
+}
+
+h2{
+  font-size: 43px; 
+  font-family: 'Besley', serif;
+  color: #10044b;
+}
+
+h3{
+  font-size: 25px;
+}
+
+body{
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: #fff;
+}
+
+div{
+  display: block;
+}
+
+.banner{
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.page{
+  padding: 10px;
+  font-size: 15px;
+}
+
+.page-botton{
+  padding: 15px;
+  border-radius: 30px;
+  display: inline-block;
+  background-color:  #274c77;
+  color: #fff;
+}
+
+.description{
+  color: #434546;
+}
+
+.wrap-left{
+  width: 55%;
+  float: left;
+  padding-right: 5%;
+}
+
+.wrap-right{
+  width: 40%;
+  float: right;
+}
+
+img{
+  display: inline-block;
+  height: 70%;
+  width: 70%;
+  border-radius: 4%;
+}
+
+.group{
+  max-width: 850px;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.calm{
+  width: 60%;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 20px;
+}

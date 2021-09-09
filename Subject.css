@@ -1,0 +1,97 @@
+body{
+  background-image: url(/bg3.jpg);
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+.navbar {
+  background-color: #274C77;
+  overflow: hidden;
+  margin: -8px;
+}
+
+#logo{
+  float: left;
+  width: 40px;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.navbar .content{
+  float: right;
+  color: #E7ECEF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #A3CEF1;
+  color: #8B8C89;
+}
+
+.navbar a:active {
+  background-color: #274C77;
+  color: #E7ECEF;
+}
+  
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4em;
+    margin-bottom: 0;
+    color: #11324D;
+    font-family: 'Besley', serif; 
+}
+
+h2{
+    font-size: 2em;
+    color: rgb(85, 147, 189); 
+    font-family: "Nunito", sans-serif;  
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;  
+}  
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  text-decoration: black;
+  background-color: #ADD8E6;
+  border-radius: 10px;  
+}
+
+button:hover{
+   box-shadow: 5px 8px;
+}
+
+button li:visited{
+   text-decoration: black ;
+}
+
+li{
+   list-style-type: none;
+   margin: 2rem;
+   margin-left: 0%;
+   font-size: 30px;
+   font-family: monospace;
+}
+
+li a{
+   text-decoration: none;
+}
+

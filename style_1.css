@@ -1,0 +1,110 @@
+body{
+    background-color: #1663be;
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+  background-color: #274C77;
+  overflow: hidden;
+  margin: -8px;
+}
+
+#logo{
+  float: left;
+  width: 40px;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.navbar .content{
+  float: right;
+  color: #E7ECEF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #A3CEF1;
+  color: #8B8C89;
+}
+
+.navbar a:active {
+  background-color: #274C77;
+  color: #E7ECEF;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 4em;
+    margin-bottom: 0;
+    color: #e8ffff;
+    font-family: 'Besley', serif;
+}
+
+#tagline_of_heading{
+    font-size: 2em;
+    color: #fff;
+}
+
+#cards{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#cards section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    border-radius: 3em;   
+    background-color: #ADD8E6;
+    width: 170px;  
+}
+
+#cards section:hover{
+    box-shadow: 5px 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a{
+  text-decoration: none;
+  color: black;
+}
+
+ul a:active{
+  color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: #fff;
+}
+
+.page{
+  padding: 40px;
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+.page-botton{
+  padding: 15px;
+  border-radius: 30px;
+  display: inline-block;
+  background-color:  #ADD8E6;
+  color: black;
+  text-decoration: none;
+}
